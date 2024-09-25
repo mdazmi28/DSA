@@ -1,4 +1,4 @@
-//the complexity of this program in o(n) 
+//the complexity of this program in o(n)
 const allStudents = ["a", "b", "c", "d", "e"];
 
 const findStudent = (allStudent, studentName) => {

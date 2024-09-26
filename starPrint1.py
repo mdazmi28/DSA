@@ -12,7 +12,4 @@ def starPrint(x):
         for j in  range(i):
             print("*",end="")
         print("")
-
-
-
 starPrint(x)

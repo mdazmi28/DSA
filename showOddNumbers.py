@@ -8,7 +8,8 @@ def findOdd(n):
         if x % 2 != 0:
            sum = sum * 10 + x
         n = n // 10
-    # print(sum)
+
+        
     while (sum != 0):
         z = sum % 10
         sum1 = sum1 * 10 + z

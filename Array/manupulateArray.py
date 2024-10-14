@@ -1,5 +1,5 @@
 lst=[1,2,3,4,5,6,7]
-positon=4
+positon=1
 # # lst=[1,2,4,5,6,7]
 # print(lst)
 for i in range(positon-1,len(lst)-1):

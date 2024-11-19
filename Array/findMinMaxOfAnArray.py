@@ -1,14 +1,9 @@
-a = [1,2,5,7]
-b=[3,6,9]
+a = [1,0,2,590,7,0,90]
 
-lst=a+b
-print(lst)
-
-def findMax(x):
-    # min = lst[0];
-
-    print(lst)        
-
-
-
-findMax(lst)
+def findMax(arr):
+    maxNumber  = arr[0]
+    for i in arr:
+        if i > maxNumber:
+            maxNumber = i
+    print(maxNumber)
+findMax(a)
